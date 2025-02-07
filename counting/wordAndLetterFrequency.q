@@ -1,7 +1,7 @@
 \c 2000 2000
 //WORD FREQUENCY
 /read the file content
-fileContents : read0 `:/Users/dhanuushri/Documents/Intellij/KDB/KDBPractice/counting/sampleTxt.txt
+fileContents : read0 `:./counting/sampleTxt.txt
 
 /concatenates all lines into a single string, with spaces between them.
 text: " " sv fileContents;
